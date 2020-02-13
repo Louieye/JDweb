@@ -1,0 +1,342 @@
+/*
+* @Author: Louieye
+* @Date:   2019-12-09 18:06:15
+* @Last Modified by:   Louieye
+* @Last Modified time: 2019-12-11 10:40:17
+*/
+.w {                       /* 版心*/
+	width: 1190px;
+	margin: 0 auto;
+}
+dl,dt,dd {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #999;
+	text-decoration: none;
+}
+header {
+	height: 80px;
+	background-color: #f13601;
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?zftyyu');
+  src:  url('../fonts/icomoon.eot?zftyyu#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?zftyyu') format('truetype'),
+    url('../fonts/icomoon.woff?zftyyu') format('woff'),
+    url('../fonts/icomoon.svg?zftyyu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.shortcut {
+	height: 30px;
+	background-color: #e3e4e5;
+	border-top: 1px solid #b6b4b6;
+	border-bottom: 1px solid #dddddd;
+	font-size: 14px;
+}
+.shortcut i {
+	font-family: "icomoon";
+	font-style: normal;
+}
+.fl {
+	list-style: none;
+	line-height: 30px;
+	margin: 0;
+	/*margin-left: 200px;*/
+	color: #999;
+}
+.fl li {
+	float: left;
+}
+.fr {
+	list-style: none;
+	line-height: 30px;
+	margin: 0;
+}
+.fr li {
+	float: right;
+	position: relative;
+}
+.fr img {
+	position: absolute;
+	top: 31px;
+	left: -46px;
+	border: 1px solid #dddddd;
+	z-index: 1;
+}
+.space {
+	width: 1px;
+	height: 10px;
+	background-color: #999;
+	margin:10px 12px 0;
+}
+.red {
+	color: #f10215!important;
+}
+.fr a:hover {
+	color: #e1251b;
+}
+.middle {
+	height: 140px;
+	/*background-color: pink;*/
+	position: relative;
+	
+}
+.middle div:first-child {
+	position: absolute;
+	background:url(../images/jd.png);
+	background-size: cover;
+	height: 120px;
+	width: 190px;
+	top: 10px;
+}
+.middle div:nth-child(2) {
+	position: absolute;
+	left: 50%;
+	top: 20%;
+	transform: translate(-50%,0);
+	height: 34px;
+	width: 520px;
+	border: 2px solid #f10215;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.middle input {
+	padding-left: 15px;
+	font-size: 14px;
+	outline: none;
+	border: 0;
+	height: 28px;
+	width: 460px;
+	float: left;
+}
+.middle button {
+	outline: none;
+	border: 0;
+	height: 33px;
+	width: 41px;
+	background-color: #f10215;
+	transition: 0.3s;
+	float: left;
+	cursor: pointer;
+}
+.middle button i {
+	font-family: "icomoon";
+	font-style: normal;
+	position: absolute;
+	font-size: 20px;
+	left: 488px;
+	top: 4px;
+	color: white;
+	cursor: pointer;
+}
+.middle button:hover {
+	background-color: rgba(200,0,0,0.8);
+}
+.tag {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	height: 15px;
+	width: 502px;
+	left: 50%;
+	top: 48%;
+	/*background-color: hotpink;*/
+	transform: translate(-52%,0);
+}
+.tag li {
+	list-style: none;
+	float: left;
+	font-size: 13px;
+	padding-left:5px;
+}
+.tag li a:hover {
+	color: #f10215;
+}
+.daohang {
+	height: 30px;
+	width: 770px;
+	/*background: skyblue;*/
+	position: absolute;
+	left: 50%;
+	top: 72%;
+	transform: translate(-42%,0);
+}
+.daohang a {
+	line-height: 30px;
+	color: #333333;
+	padding-left: 15px;
+	transition: color 0.3s;
+}
+.daohang a:first-child,
+.daohang a:nth-child(2) {
+	color: #e1251b;
+	font-weight: bold;
+}
+.daohang a:hover {
+	color: #f10215;
+}
+.shopcart {
+	height: 33px;
+	width: 130px;
+	position: absolute;
+	border: 1px solid #dddddd;
+	top: 27px;
+	left: 918px;
+	line-height: 33px;
+	color: #e1251b;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.shopcart i {
+	font-family: "icomoon";
+	font-style: normal;
+	color: #e1251b;
+	margin-right: 15px;
+}
+.shopcart span {
+	width: 18px;
+	height: 15px;
+	background-color: #e1251b;
+	position: absolute;
+	color: white;
+	border-radius: 7px;
+	line-height: 15px;
+}
+hr {
+	border-bottom: 1px solid #dddddd;
+	margin: 0;
+}
+footer {
+	height: 500px;
+	background-color: #f4f4f4;
+}
+footer div:first-child {
+	border-bottom: 1px solid #dedede;
+}
+.footer-t {
+	height: 110px;
+	position: relative;
+}
+.footer-t p {
+	float: left;
+	width: 25%;
+	font-weight: 700;
+	font-size: 18px;
+	color: #444444;
+	line-height: 110px;
+	margin: 0;
+	text-align: center;
+}
+.footer-t h5 {
+	position: absolute;
+	width: 36px;
+	height: 42px;
+	text-indent: -999px;
+	margin: 0;
+	top: 50%;
+	transform: translate(0,-50%);
+	background: url(../images/sprite.png) no-repeat;
+	overflow: hidden;
+}
+.footer-t h5:first-child {
+	background-position: 0 -192px;
+	left: 2%;
+}
+.footer-t .kuai {
+	background-position: -41px -192px;
+	left:27%; 
+}
+.footer-t .hao {
+	background-position: -82px -192px;
+	left:52%; 
+}
+.footer-t .sheng {
+	background-position: -123px -192px;
+	left:77%; 
+}
+.hl dl {
+	margin-right: 125px;
+	float: left;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+.hl dt {
+	font-weight: 555;
+	font-size: 16px;
+	color: #666666;
+	padding-bottom: 4px;
+}
+.hl dd {
+	font-size: 15px;
+	color: #666666;
+	padding-top: 5px;
+}
+.hl dd a {
+	color: #666666;
+}
+.hl dd a:hover {
+	color: #f10215;
+}
+.map {
+	width: 200px;
+	height: 150px;
+	float: right;
+}
+.map h5 {
+	margin: 10px 0 0;
+	text-align: center;
+	font-size: 16px;
+	color: #666666;
+}
+.map p {
+	color: #666666;
+	font-size: 15px;
+}
+.map a {
+	float: right;
+	color: #666666;
+	font-size: 15px;
+}
+.map a i {
+	font-family: "icomoon";
+	font-style: normal;
+	font-size: 14px;
+}
+.map a:hover {
+	color: #f10215;
+}
+.copyright {
+	height: 270px;
+}
+.copy1 p {
+	float: left;
+	border-top: 2px solid #dedede;
+	padding-top: 20px;
+	font-size: 14px;
+
+}
+.copyright span {
+	margin: 0 5px;
+	font-size: 9px;
+}
+.copy1 a:hover {
+	color: #e1251b;
+}
+.copy2 {
+	height: 200px;
+	float: left;
+}
+.copy2 p {
+	/*display: inline-block;*/
+	text-align: center;
+	margin: 5px;
+	color: #666666;
+	font-size: 14px;
+}
